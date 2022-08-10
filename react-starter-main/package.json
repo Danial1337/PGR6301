@@ -4,24 +4,29 @@
   "description": "This is a minimal React project using Parcel that you should be able to get up and running.",
   "main": "index.js",
   "scripts": {
-    "start":"cd server && npm start",
-    "dev": "concurrently npm:dev:server npm:dev:client",
-    "dev:server": "cd server && npm run dev",
-    "dev:client": "cd client && npm run dev",
+    "start": "cd server && npm start",
     "build": "npm run build:client && npm run build:server",
     "build:client": "cd client && npm install --include=dev && npm run build",
     "build:server": "cd server && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristiania-pg6301-2022/pg6301-react-and-express-lectures.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristiania-pg6301-2022/pg6301-react-and-express-lectures/issues"
+  },
+  "homepage": "https://github.com/kristiania-pg6301-2022/pg6301-react-and-express-lectures#readme",
   "devDependencies": {
-    "concurrently": "^7.3.0"
+    "rimraf": "^3.0.2"
   },
   "engines": {
-    "node": "16.15.0",
-    "npm": "8.10.0"
+    "node": "16.13.1",
+    "npm": "8.3.0"
   }
 }
 
