@@ -3,7 +3,7 @@ import path from "path";
 import bodyParser from "body-parser";
 
 const app = express();
-
+app.use(bodyParser.json());
 
 const MOVIES = [
   {
@@ -18,7 +18,7 @@ const MOVIES = [
   }
 ];
 
-app.use(bodyParser.json());
+
 
 app.get("/api/movies", (req, res) =>{
 res.json(MOVIES)

@@ -51,6 +51,7 @@ function NewMovie({moviesApi}){
     e.preventDefault();
   await moviesApi.onAddMovie({title,year,plot});
     navigate("/");
+    
   }
 
    return <form onSubmit={handleSubmit}>
