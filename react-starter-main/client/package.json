@@ -1,7 +1,9 @@
 {
   "name": "react-starting-point",
   "scripts": {
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+
   },
   "type": "module",
   "devDependencies": {
