@@ -2,7 +2,7 @@
   "name": "react-starter-main",
   "version": "1.0.0",
   "description": "This is a minimal React project using Parcel that you should be able to get up and running.",
-  "main": "index.js",
+
   "scripts": {
     "start":"cd server && npm start",
     "dev": "concurrently npm:dev:server npm:dev:client",
