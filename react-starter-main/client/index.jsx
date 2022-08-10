@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import * as React from "react";
+import {useState, useEffect} from "react";
 import * as ReactDOM from "react-dom";
 import {Routes, Route, Link, BrowserRouter, useNavigate} from "react-router-dom"
 
