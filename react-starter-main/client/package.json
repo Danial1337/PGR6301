@@ -6,7 +6,6 @@
   },
   "type": "module",
   "devDependencies": {
-    "parcel": "^2.2.0"
   },
   "dependencies": {
     "react": "^17.0.2",
