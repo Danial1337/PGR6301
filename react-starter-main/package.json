@@ -1,0 +1,18 @@
+{
+  "name": "react-starter-main",
+  "version": "1.0.0",
+  "description": "This is a minimal React project using Parcel that you should be able to get up and running.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently npm:dev:server npm:dev:client",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
